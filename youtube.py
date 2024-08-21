@@ -1,8 +1,12 @@
 import yt_dlp
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Your API key
-API_KEY = 'AIzaSyA7IZVaerVT2QY17QLu0kCTOgO2U07Oixc'
+API_KEY = os.getenv('YOUTUBE_API_KEY')
 
 def search_youtube(query):
     search_url = f"https://www.googleapis.com/youtube/v3/search"
