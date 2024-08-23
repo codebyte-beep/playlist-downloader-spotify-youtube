@@ -11,5 +11,6 @@ This tool addresses the challenge of enjoying uninterrupted music by converting 
 - **Uninterrupted Music**: Enjoy your favorite tracks without non-premium interruptions.
 
 ## Getting Started
+- **set up API keys**
 - **pip install -r requirements.txt**
 - **python index.py**
