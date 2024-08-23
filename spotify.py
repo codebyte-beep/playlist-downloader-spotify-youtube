@@ -50,8 +50,3 @@ def get_playlist_tracks(playlist_id):
     tracks = results['items']
     return tracks
 
-
-
-
-
-
